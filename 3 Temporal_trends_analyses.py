@@ -1,8 +1,6 @@
-# 3 Data Analysis
+# 3 Temporal trends analyses
 
-# 3.1 Temporal trends analyses
-
-# 3.1.1 Historical Overview of Home Price Index (HPI) - National and Provinces (2005-2023)
+# 3.1 Historical Overview of Home Price Index (HPI) - National and Provinces (2005-2023)
 
 # Set the palette
 sns.set_palette("bright")
@@ -34,7 +32,7 @@ plt.show()
 
 
 
-# 3.1.1.1 Calculate HPI variations over the years
+# 3.1.1 Calculate HPI variations over the years
 
 # Filter data for the year 2023
 df_2023_provinces = agg_df_provinces[agg_df_provinces['Year'] == 2023]
@@ -76,7 +74,7 @@ print("\nRanking of provinces based on HPI variation, HPI in 2023, and HPI Perce
 print(ranked_provinces)
 
 
-# 3.1.2 Historical Overview of Home Price Index (HPI) Across Cities (2005-2023)
+# 3.2 Historical Overview of Home Price Index (HPI) Across Cities (2005-2023)
 
 # Set the palette 
 sns.set_palette("bright")
@@ -107,7 +105,7 @@ plt.tight_layout()
 plt.show()
 
 
-# 3.1.2.1 Calculate HPI variations over the years
+# 3.2.1 Calculate HPI variations over the years
 
 # Filter data for the year 2023
 df_2023 = agg_df[agg_df['Year'] == 2023]
@@ -149,7 +147,7 @@ print("\nRanking of cities based on HPI variation, HPI in 2023, and HPI Percenta
 print(ranked_cities)
 
 
-# 3.1.3 Post-COVID Analysis of Home Price Index (HPI) - National and Provinces (2019-2023)
+# 3.3 Post-COVID Analysis of Home Price Index (HPI) - National and Provinces (2019-2023)
 
 # Set the palette before creating the plot
 sns.set_palette("bright")
@@ -185,7 +183,7 @@ plt.tight_layout()
 plt.show()
 
 
-# 3.1.3.1 Calculate HPI variations over the years
+# 3.3.1 Calculate HPI variations over the years
 
 # Filter data for the year 2023
 df_2023_provinces = agg_df_provinces[agg_df_provinces['Year'] == 2023]
@@ -229,7 +227,7 @@ print("\nRanking of Provinces based on HPI variation, HPI in 2023, and HPI Perce
 print(ranked_provinces_sorted)
 
 
-# 3.1.4 Post-COVID Analysis of Home Price Index (HPI) Across Cities (2019-2023
+# 3.4 Post-COVID Analysis of Home Price Index (HPI) Across Cities (2019-2023
 
 # Set the palette before creating the plot
 sns.set_palette("bright")
@@ -266,7 +264,7 @@ plt.show()
 
 
 
-# 3.1.4.1 Calculate HPI variations over the years
+# 3.4.1 Calculate HPI variations over the years
 
 # Filter data for the year 2023
 df_2023 = agg_df[agg_df['Year'] == 2023]
