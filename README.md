@@ -5,7 +5,7 @@ This repository contains a comprehensive analysis of the Canadian real estate ma
 
 **Folder Structure:**
 
-**Data:** Contains the datasets used for the analysis.
+**Data:** The Data was extracted from The Canadian Real Estate Association- [CREA](https://creastats.crea.ca/en-CA/), which cover the Aggregate Composite MLS® Home Price Index (HPI), as well as the different housing types sales prices across many Canada provinces and cities from January 2005 to October 2023.
 
 **Notebooks:** Jupyter notebooks containing the entire analysis, with clear sections for data cleaning, exploration, visualization, and insights.
 **Visualizations:** Includes visualizations generated during the analysis, aiding in the understanding of trends and patterns.
