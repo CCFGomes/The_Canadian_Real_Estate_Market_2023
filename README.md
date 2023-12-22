@@ -22,7 +22,7 @@ This repository contains a comprehensive analysis of the Canadian real estate ma
 
 **Temporal Trends and Regional Rankings:** Utilizing mean Composite HPI, standard deviations, and regional rankings for data-driven decision-making.
 
-**Box Plot Insights and Monetary Policy:** Examining regional differences, city-specific trends, and the influence of monetary policies on interest rates.
+**Variability and Monetary Policy:** Examining regional differences, city-specific trends, and the influence of monetary policies on interest rates.
 
 **Recommendations:**
 
